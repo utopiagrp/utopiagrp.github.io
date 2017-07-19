@@ -1,0 +1,83 @@
+/* BASIC */
+
+*, *:after, *:before, html, body {
+    margin: 0;
+    padding: 0;
+    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+	background-color: rgba(77, 87, 96, .1);
+}
+
+html {font-size: 1em;}
+
+body {
+    background-color: white;
+    padding: 5%;
+    
+    font-family: "nimbus-sans", Nimbus Sans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+    color: #2d2d2e;
+    
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);  
+}
+
+main {display: block; max-width: 50rem; margin: 0 auto;}
+
+p {margin-bottom: 1.3em;}
+h1, h2, h3, h4 {margin: 1.414em 0 0.5em;font-weight: 700;line-height: .9;letter-spacing: -0.025em;}
+h1, .uno {margin-top: 0; font-size: 5.063em; letter-spacing: -0.05em;}
+h2, .dos {font-size: 3.375em;}
+h3, .tres {font-size: 2.25em;}
+h4, .cuatro {font-size: 1.5em;}
+.reg {font-size: 1em;}
+small, .small {font-size: 0.667em;}
+
+.no-m-t {margin-top: 0;}
+.no-m-b {margin-bottom: 0;}
+
+.logo {width: 50%; max-width: 10rem;}
+
+ul {
+    list-style-type: none;
+}
+
+@media only screen and (min-width:31rem) {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+h1, .contact, .copyright {margin-top: 5rem;}
+p a {color: #ee3739;}
+
+
+/*
+@media only screen and (min-width: 80rem) {
+    body {
+        padding-bottom: 10rem;
+        background-image: url(../images/utopia-building.jpg);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: right 18rem;
+    }
+    
+    .copyright {margin-top: 20rem;}
+}
+*/
