@@ -67,8 +67,25 @@ ul {
 h1, .contact, .copyright {margin-top: 5rem;}
 p a {color: #ee3739;}
 
+.red-hl {
+    position: relative;
+    z-index: 1;
+}
 
-/*
+
+.red-hl:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: #ee3739;
+    height: 44%;
+    bottom: 1.25rem;
+    left: -.25rem;
+    right: -1rem;
+}
+
+
+
 @media only screen and (min-width: 80rem) {
     body {
         padding-bottom: 10rem;
@@ -80,4 +97,3 @@ p a {color: #ee3739;}
     
     .copyright {margin-top: 20rem;}
 }
-*/
