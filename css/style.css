@@ -88,9 +88,12 @@ body {
     padding-bottom: 4rem;
     background-image: url(../images/utopia-building-mobile.jpg);
     background-size: contain;
-	background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right 9rem;
+    background-position: right bottom;
+}
+
+main {
+	min-height: 100vh;
 }
 /*
 @media only screen and (min-width: 80rem) {
@@ -104,7 +107,7 @@ body {
     .copyright {margin-top: 20rem;}
 }*/
 
-@media only screen and (min-width: 80rem) {
+@media only screen and (min-width: 30rem) {
     body {
         background-position: right 12rem;
     }
