@@ -84,16 +84,28 @@ p a {color: #ee3739;}
     right: -1rem;
 }
 
-
-
+body {
+    padding-bottom: 4rem;
+    background-image: url(../images/utopia-building-mobile.jpg);
+    background-size: contain;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right 9rem;
+}
+/*
 @media only screen and (min-width: 80rem) {
     body {
         padding-bottom: 10rem;
         background-image: url(../images/utopia-building.jpg);
         background-size: 800px;
-        background-repeat: no-repeat;
         background-position: right 18rem;
     }
     
     .copyright {margin-top: 20rem;}
+}*/
+
+@media only screen and (min-width: 80rem) {
+    body {
+        background-position: right 12rem;
+    }
 }
